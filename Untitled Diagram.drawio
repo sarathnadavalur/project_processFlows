@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T03:28:44.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QpIKp7ajDnMc8ye-VPje" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T13:03:30.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="j-UlYTcI7YzSwiFeSPA_" version="24.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2182" dy="1858" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1714" dy="1546" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         <mxCell id="0322WF2BFSAdIJVe4F3n-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-2" target="0322WF2BFSAdIJVe4F3n-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-2" value="Webform, customer details" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-2" value="Webform, customer details" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="366" y="210" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-4" target="0322WF2BFSAdIJVe4F3n-11">
@@ -24,19 +24,19 @@
             <mxPoint x="410.68421052631584" y="549.6842105263158" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-4" value="Create Mandate API of GoCardless/Stripe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-4" value="Create Mandate API of GoCardless/Stripe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="357" y="452" width="114" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-7" value="Store MandateId,&lt;div&gt;&amp;nbsp;CustomerId in DB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="305" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-8" value="Recurring Payment Scheduler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1187" y="78" width="410" height="120" as="geometry">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-8" value="Recurring Payment Scheduler" style="swimlane;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1187" y="78" width="410" height="123" as="geometry">
             <mxRectangle x="650" y="280" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;1. Is customer eligible for payment now?&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp; Customer&#39;s information available? MandateID, Currency, Amount etc.,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Initiate an ACH transaction with GoCardless/Stripe&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0322WF2BFSAdIJVe4F3n-8">
-          <mxGeometry y="15" width="410" height="90" as="geometry" />
+        <mxCell id="0322WF2BFSAdIJVe4F3n-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;1. Is customer eligible for payment now?&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp; Customer&#39;s information available? MandateID, Currency, Amount etc.,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Initiate an ACH transaction with GoCardless/Stripe&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#CCFFFF;" vertex="1" parent="0322WF2BFSAdIJVe4F3n-8">
+          <mxGeometry y="21" width="410" height="102" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-11" target="0322WF2BFSAdIJVe4F3n-34">
           <mxGeometry relative="1" as="geometry">
@@ -46,7 +46,7 @@
         <mxCell id="0322WF2BFSAdIJVe4F3n-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-11" target="0322WF2BFSAdIJVe4F3n-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-11" value="GoCardless / Stripe&lt;div&gt;ACH TPSPs&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-11" value="GoCardless / Stripe&lt;div&gt;ACH TPSPs&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="650" y="300" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-13" value="Send customer details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -87,10 +87,10 @@
         <mxCell id="0322WF2BFSAdIJVe4F3n-29" value="Send Customer&#39;s meta data including MandateID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="908" y="105" width="279" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-31" value="Payment Created?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-31" value="Payment Created?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1191" y="246" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-32" value="Payment Submitted?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-32" value="Payment Submitted?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1191" y="329" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-34" target="0322WF2BFSAdIJVe4F3n-31">
@@ -111,22 +111,22 @@
         <mxCell id="0322WF2BFSAdIJVe4F3n-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-34" target="0322WF2BFSAdIJVe4F3n-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-34" value="Get Action" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-34" value="Get Action" style="rhombus;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="976" y="431" width="100" height="102" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-35" value="Webhook Endpoint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="890" y="379" width="119" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-38" value="Payment Confirmed?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-38" value="Payment Confirmed?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1191" y="411" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-39" value="Payment Failed?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-39" value="Payment Failed?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1191" y="493" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-40" value="Payment Paid Out?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-40" value="Payment Paid Out?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1191" y="575" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-41" value="Payment Cancelled?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-41" value="Payment Cancelled?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1191" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0322WF2BFSAdIJVe4F3n-46" target="0322WF2BFSAdIJVe4F3n-54">
@@ -202,7 +202,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0322WF2BFSAdIJVe4F3n-65" value="Is customer data valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0322WF2BFSAdIJVe4F3n-65" value="Is customer data valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="371" y="551" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0322WF2BFSAdIJVe4F3n-67" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
